@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Grape nuts, cursive;
     font-weight: 700;
+    background-color: green;
     }
 
 #nav-menu {
@@ -12,16 +19,23 @@ body {
 }
 
 #nav-menu li {
+    float: right;
     list-style-type: none;
     text-align: right;
-    color: white;
-    font-weight: 200;
-    text-decoration: none;
 }
 
 #main-image {
-    background: url(/assets/images/zombies-door.jpg) no-repeat;
+    background: url(/assets/images/person-alone.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
    }
+
+.menu {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    letter-spacing: 3px;
+    margin-right: 30px;
+}
 
